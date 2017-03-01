@@ -1,0 +1,1049 @@
+<!--DOCTYPE html-->
+<html lang="en">  <!--This is html5-->
+<head>
+	<title>Learn Technology</title>
+	 
+	 <meta charset="utf-8">
+	 <meta http-equiv="refresh" content="45"> <!--to refresh site every 45 seconds-->
+	 <meta name="author" content="Vipul Lalwani">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Annie-Use-Your-Telescope" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	
+	
+	<!--for inserting icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!--for inserting google icons-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	
+	
+
+	
+  
+
+	
+	<style>
+		
+		<!--.container
+		{
+			margin:0 auto;
+			padding:0px;
+		}-->
+		
+		.header
+		{
+			font-size:15px;
+			font-weight:bold;
+			text-align:center;
+			padding:20px 0px 10px 10px ;
+		}
+		
+		#start
+		{
+			font-size:25px;
+		}
+		
+		hr
+		{
+			width:100vw;
+		}
+		.lax 
+		{
+			background-image: url("cover.jpeg");
+			min-height: 1000px; 
+			/* Create the parallax scrolling effect*/ 
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			
+			<!--font-size:30px;
+			font-weight:bold;
+			font-align:center;
+			border-bottom:1px solid;-->
+		}
+		
+		.name
+		{
+			font-size:48px;
+			font-weight:bold;
+			text-align:center;
+			color:black;
+			position:relative;
+			top:400px;
+			<!--border-bottom:1px solid ;-->
+		}
+		.quote
+		{
+			font-size:30px;
+			text-align:center;
+			color:black;
+			position:relative;
+			top:400px;
+		}
+		.bl
+		{
+			border:2px solid ;
+			width:300px;
+			position:relative;
+			top:400px;
+		}
+		
+		.about h2, .wedo h2, .prod h2,.test h2, .title h2
+		{
+			    text-align: center;
+				font-size:28px;
+				font-weight: bold;
+				color:#0D47A1;
+				padding:10px;
+		}
+		
+		.separator-container .separator
+		{
+			color:black;
+			margin: 0 auto 1em;				<!-- 1em=20px-->
+			width: 20em;
+			text-align: center;
+		}
+		
+		
+		.about p
+		{
+			font-family: cursive;
+			text-align: center;
+			font-size:18px;
+			padding:10px 0px 20px 200px ;
+			
+		}
+		.card img
+		{
+			padding:10px;
+			width:380px;
+		}
+		
+		.wecon, .prod, .prodi, .respect
+		{
+			padding:10px 20px 10px 20px;
+			text-align:center;
+		}
+		.wecon p, .prod p, .prodi p,.test p, .think, .respect p, .tem p, .title p
+		{
+			font-family: cursive;
+			font-size:15px;
+		}
+		.wecon h3, .prod h3 ,.prodi h3, .test h3, .tem h3, .card h3,.title h3
+		{
+			font-size:22px;
+			color:#1A237E;
+		}
+		.prodi img
+		{
+			width:340px;
+			height:300px;
+			padding:20px;
+		}
+		
+		.prodi img:hover 
+		{
+			box-shadow: 0 0 2px 2px rgba(0,0,0,1);  
+			border: 2px solid black;  
+		}
+		
+		<!--.prodi button 
+		{
+			border-radius: 40%;
+		}	-->
+		
+		h4
+		{
+			text-align:center;
+		}
+		
+		.one,.two,.three,.four
+		{
+			padding:20px;
+		}
+		.test-name
+		{
+			font-size:18px;
+		}
+		.test
+		{
+			text-align:center;
+		}
+		.tn
+		{
+			padding:15px;
+			text-align:center;
+		}
+		.tn p
+		{
+			font-size:20px;
+			line-spacing:2px;
+		}
+		.tn h4
+		{
+			font-size:18px;
+		}
+		.clearfix
+		{
+			height:70px;
+		}
+		.Meet-Our-Team
+		{
+			text-align:center;
+		}
+		.tem img	
+		{
+			border-radius:50%;
+			height:100px;
+			width:100px;
+		}
+		.tem,.title
+		{
+			padding:30px 0px 30px 0px;
+		}
+		.social i:hover
+		{
+			color:black;
+		}
+		#vis i
+		{
+			visibility:hidden;
+		}
+		#vis:hover i
+		{
+			visibility:visible;
+		}
+		.respect 
+		{
+			padding: 0 0 100px 0;
+		}
+		#address 
+		{ 
+			position: relative; 
+		}
+		#contact 
+		{
+			position:absolute;
+			top:70px;
+			width:22%;
+			float:left;
+			z-index: 5;
+			background-color: #ffffff;
+			border: 2px solid black;
+			opacity: 0.9;
+			filter: alpha(opacity=90); <!-- For IE8 and earlier */-->
+			text-align: center;
+			left: 30px;
+		}
+		
+				
+		#contact h4
+		{
+			margin: 20px;
+			text-align:center;
+		}
+		#contact h5
+		{
+			margin: 20px;
+			text-align:center;
+		}
+		#contact button
+		{
+			margin: 12px;
+			text-align:center;
+		}
+		#contact #vis
+		{
+			margin-left: 28%;
+		}
+		
+		
+		.bs  
+		{
+			float: left;
+			width: 100%;
+			list-style-type: none;
+		}
+		.bs a 
+		{
+			float: left;
+			color: white;
+			padding: 0.2em 0.6em;
+		}
+
+		.bs a:hover
+		{
+			color:grey;
+		}
+		.bs li
+		{
+			display:inline;
+		}
+		
+		.social-area
+		{
+			float:right;
+		}
+		.social-area a
+		{
+			padding:4px;
+		}
+		.social-area i:hover
+		{
+			color:red;
+		}
+		.foot a:hover
+		{
+			color:blue;
+		}
+		.footer a
+		{
+			font-size:16px;
+		}
+		.w3-container
+		{
+			height:80px;
+		}
+		.foot
+		{
+			padding: 20px 0 0 0;
+		}
+		p 
+		{
+			text-align: center;
+			font-size: 40px;
+			max-width: 100%;
+			font-family: 'Annie Use Your Telescope';
+		}
+		video 
+		{
+			max-width: 100%;
+			height: auto;
+			margin:30px 30px 30px 25%;
+		}
+		
+		
+		@media (max-width: 450px)
+		{
+			.about p
+			{
+				font-family: cursive;
+				text-align: center;
+				font-size:18px;
+				padding:10px ;
+			}
+			#address 
+			{ 
+				position: relative; 
+			}
+			#contact 
+			{
+				position:absolute;
+				width:85%;
+				bottom:0px
+				height:50%;
+				float:left;
+				z-index: 5;
+				background-color: #ffffff;
+				border: 2px solid black;
+				opacity: 0.9;
+				filter: alpha(opacity=90); <!-- For IE8 and earlier */-->
+				text-align: center;
+				left:0px;
+			}
+		
+				
+			#contact h4, #contact h5
+			{
+				margin:0px;
+				text-align:center;
+			}
+			
+			#contact button
+			{
+				margin: opx;
+				text-align:center;
+			}
+			#contact #vis
+			{
+			margin-left: 25%;
+			}
+			.w3-container
+			{
+				height:120px;
+			}
+			.social-area
+			{
+				float:left;
+				margin:8px 0 0 12%;
+			}
+			.bl
+			{	
+				border:2px solid ;
+				width:300px;
+				position:relative;
+				top:400px;
+				left:18%;
+			}
+			p 
+			{
+				text-align: center;
+				font-size: 25px;
+			}
+			video 
+			{
+				margin:30px 0px 30px 0;
+			}
+		}
+		
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbar-burger" role="navigation">
+		<div class="container-fluid">
+				<div class="row header">
+					<div class="col-md-2 col-xs-12">
+						<div id="start"><a href="index.html" style="color:black">Hell O tecH</a></div>
+					</div>
+							
+					<div class="col-md-10 col-xs-12">
+						<div class="col-md-1 col-xs-12"><a href="#about" style="color:black">About Us</a></div>
+						<div class="col-md-2 col-xs-12"><a href="#wedo" style="color:black">What We Do</a></div>
+						<div class="col-md-1 col-xs-12"><a href="#test" style="color:black">Testimonials</a></div>
+						<div class="col-md-2 col-xs-12"><a href="#products" style="color:black">Our Products</a></div>
+						<div class="col-md-1 col-xs-12"><a href="#team" style="color:black">Our Team</a></div>
+						<div class="col-md-1 col-xs-12"><a href="#numbers" style="color:black">Respect++</a></div>
+						<div class="col-md-2 col-xs-12"><a href="#contact" style="color:black">Contact Us</a></div>
+						<div class="col-md-2 col-xs-12">
+							<a href="https://www.facebook.com/bbctech">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                            <a href="https://twitter.com/BBCTech" style="color:light-blue">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="https://plus.google.com/u/0/collection/MhF1Y" style="color:red">
+                                <i class="fa fa-google-plus-square"></i>
+                            </a>
+						</div>
+					</div>
+				</div>
+		</div>
+	</nav>
+	<hr>
+		<div class="row lax">
+			<div class="row name">LEARN TECHNOLOGY</div>
+			<div class="col-md-4 col-md-offset-5 bl col-xs-12"></div>
+			<div class="row quote">
+			<div class="col-md-4 col-md-offset-5 col-xs-12">Sleep Hounds,Technology Haunts</div>
+			</div>
+			 
+		</div>
+		
+	<!--About Us started-->	
+	
+	<div class="About-Us" id="about">
+		<div class="container-fluid">
+			<div class="row title">
+				<div class="title">
+					<h2>About Us</h2>
+					<div class="separator-container">
+						<div class="separator line-separator">∎</div>
+					</div>
+				</div>
+			<div class="row about">
+				<div class="col-md-9 col-md-offset-1 col-xs-12">
+					<p>This website is an educational website. We here teaches people about new technologies which we are going to rely on future. 
+						We also teches programming, electronics, arduino projects and many more.
+					</p>
+				</div>	
+		</div>
+		
+		<div class="row about-img">
+			<div class="col-md-3 col-md-offset-1 col-xs-12">
+                <div class="card ">
+					<img  src="images/about/1.jpg" />
+				</div>
+                <div class="card">
+                    <img src="images/about/2.jpeg" />
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-12">
+                <div class="card">
+                    <img src="images/about/3.jpg"/>
+                </div>
+                <div class="card">
+                    <img src="images/about/4.jpg"/>
+                </div>
+                <div class="card">
+                     <img src="images/about/5.jpg"/>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-12">
+                <div class="card">
+                    <img src="images/about/6.jpg"/>
+                </div>
+                <div class="card">
+					<img src="images/about/7.png"/>
+                </div>
+            </div>
+		</div>	
+	</div>			
+	<!--About Us ended-->
+	
+	<!--What We Do started-->
+	<div class="What-we-do" id="wedo">
+        <div class="container-fluid">
+            <div class="row title">
+                <div class="title">
+                    <h2>What we do</h2>
+                        <div class="separator-container">
+							<div class="separator line-separator">∎</div>
+                        </div>
+		        </div>
+            </div>
+            <div class="row wecon">
+                <div class="col-md-4 col-md-offset-2 col-xs-12">
+                    <div class="card">
+                        <div class="icon">
+							<i class="material-icons"style="font-size:100px;color:#D50000;text-shadow:2px 2px 4px">laptop_mac</i>
+                        </div>
+                        <h3>Create UI Tools</h3>
+                        <p>We have created the tools that will help you in your next design project or may be your source code for your new app on play store. From plugins to complex kits, we've got you covered in all areas regarding front-end development, back-end developement</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-xs-12">
+					<div class="card">
+                        <div class="icon">
+                            <i class="material-icons"style="font-size:100px;color:#D50000;text-shadow:2px 2px 4px">weekend</i>
+                        </div>
+                        <h3>Workshops</h3>
+                        <p>We've sponsored many workshops around the world with the tools that they need to make awesome web applications. We like to help where we can, and our workshops for front-end development and back-end development are the most responsive one. We help people learn the basic concept behind the elctronics nad robotics. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!--What We Do ended-->
+	
+	<!--Our Products started-->
+		<div class="Our-Products" id="products">
+                <div class="container-fluid">
+                    <div class="row prod">
+                        <div class="title">
+                            <h2>Our Products</h2>
+                            <div class="separator-container">
+                                <div class="separator line-separator">∎</div>
+                            </div>
+                            <div class="col-md-10 col-md-offset-1 col-xs-12">
+								<p><h3>Check out the most popular products from our platform, they will speed up your development process for sure! We would love to hear your feedback.<h3><br><br></p>
+							</div>
+						</div>
+					</div>
+				</div>
+                <div class="container prodi">
+                    <div class="row one">
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="project">
+                                <a target="_blank" class="img-class" href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/">
+                                    <img src="images/products/1.jpg"/>
+                                </a>
+                                <div class="over-area over-area-sm color-1 ">
+                                    <div class="content">
+                                        <h4 class="text-gray">Just Launched, Starting from $300</h4>
+                                        <h3>Raspberry Pi-3</h3>
+                                        <p>Raspberry Pi® is an ARM based credit card sized SBC(Single Board Computer) created by Raspberry Pi Foundation. Raspberry Pi runs Debian based GNU/Linux operating system Raspbian and ports of many other OSes exist for this SBC.</p>
+                                        <a target="_blank" href="https://www.raspberrypi.org/products/"><button class="w3-btn w3-hover-Red w3-round-xxlarge w3-ripple ">Know More</button></a>		<!--target="_blank"  Opens the linked document in a new window or tab-->
+                                  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="project">
+                                <a target="_blank" class="img-class" href="https://store.arduino.cc/product/GBX00005">
+                                   <img src="images/products/2.jpg"/>
+                                </a>
+                                <div class="over-area over-area-sm color-1 col-xs-12">
+                                    <div class="content">
+                                        <h4 class="text-gray">6,800+ Sold, Starting from $50</h4>
+                                        <h3>Arduino Genuino</h3>
+                                        <p>Arduino is an open-source prototyping platform based on easy-to-use hardware and software. Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online. You can tell your board what to do by sending a set of instructions to the microcontroller on the board. It is like the brain of a project.</p>
+                                        <a target="_blank" href="https://store.arduino.cc/product/"><button class="w3-btn w3-hover-Blue w3-round-xxlarge w3-ripple ">Know More</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="project">
+                                <a target="_blank" class="img-class" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiHjPXwqabSAhWKD2gKHVcsDzgYABABGgJzYw&ohost=www.google.co.in&cid=CAESIuD2KCmcrz_IZ3FkDSNuSlmhA0IqdzTk76CybVaVSxiwPxY&sig=AOD64_0bwrTcqI0M_yLydNtemZXy9KMI_Q&ctype=5&q=&ved=0ahUKEwj9zvDwqabSAhWJso8KHfrkDk0Qwg8IHA&adurl=">
+                                    <img src="images/products/3.jpg"/>
+                                </a>
+                                <div class="over-area over-area-sm color-1">
+                                    <div class="content">
+                                        <h4 class="text-gray">200+ Sold, Starting from $600</h4>
+                                        <h3>Get Shit Done Kit</h3>
+                                        <p>This Kit is the best starting point for building Cannon Camera. It magically offers responsive design and easy to use elements.</p>
+                                        <a target="_blank" href="www.cannon.com"><button class="w3-btn w3-hover-Deep-Purple w3-round-xxlarge w3-ripple ">Know More</button></a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="row two">
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="project">
+                                <a target="_blank" class="img-class" href="http://www.bits-quark.org/workshop/">
+                                    <img src="images/products/4.jpg">
+                                </a>
+                                <div class="over-area over-area-sm color-1">
+                                    <div class="content">
+                                        <h4 class="text-gray">3,100+ Workshops Done, Starting from $900</h4>
+                                        <h3>Register for workshops</h3>
+                                        <p>You can register for workshop by cliking on register. Please view our refund policy before you register. If you have accessibility needs, please review our accommodations and services and let us know how we can assist you prior to the workshop start date.</p>
+                                        <a target="_blank" href="http://www.bits-quark.org/workshop/"><button class="w3-btn w3-hover-Green w3-round-xxlarge w3-ripple ">Register</button></a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="project">
+                                <a target="_blank" class="img-class" href="https://www.w3schools.com/">
+                                    <img src="images/products/5.jpeg">
+                                </a>
+                                <div class="over-area over-area-sm color-1">
+                                    <div class="content">
+                                        <h4 class="text-gray">8,500+ Registrations, Starting from $500</h4>
+                                        <h3>Front-end Development Course</h3>
+                                        <p>Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly.</p>
+                                         <a target="_blank" href="https://www.w3schools.com/"><button class="w3-btn w3-hover-Indigo w3-round-xxlarge w3-ripple ">Register</button></a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="project">
+                                <a target="_blank" class="img-class" href="https://www.hackerrank.com/">
+                                    <img src="images/products/6.jpg">
+                                </a>
+                                <div class="over-area over-area-sm color-1">
+                                    <div class="content">
+                                        <h4 class="text-gray">6,200+ Registrations, Starting from $600</h4>
+                                        <h3>Back-end Development Course</h3>
+                                        <p>A back-end developer is a type of computer programmer who creates the logical back-end and core computational logic of a website, software or information system. The developer create components and features that are indirectly accessed by a user through a front-end application or system.</p>
+                                        <a target="_blank" href="https://www.hackerrank.com/"><button class="w3-btn w3-hover-Orange w3-round-xxlarge w3-ripple ">Register</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+					<div class="row three">
+
+                        <div class="col-md-4 col-xs-12">
+                            <div class="project">
+                                <a target="_blank" class="img-class" href="https://www.vexrobotics.com/wiki/Line_Follower">
+                                    <img src="images/products/7.jpg"/>
+                                </a>
+                                <div class="over-area over-area-sm color-1 ">
+                                    <div class="content">
+                                        <h4 class="text-gray">Starting from $300</h4>
+                                        <h3>Line Following Bot</h3>
+                                        <p>A line tracker mostly consists of an infrared light sensor and an infrared LED. It functions by illuminating a surface with infrared light; the sensor then picks up the reflected infrared radiation and, based on its intensity, determines the reflectivity of the surface in question. Lightly colored surfaces will reflect more light than dark surfaces; therefore, lightly colored surfaces will appear brighter to the sensor. This allows the sensor to detect a dark line on a pale surface, or a pale line on a dark surface.</p>
+                                         <a target="_blank" href="https://www.vexrobotics.com/wiki/Line_Follower"><button class="w3-btn w3-hover-Deep-Orange w3-round-xxlarge w3-ripple ">Know More</button></a> </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-xs-12">
+                            <div class="project">
+                                <a target="_blank" class="img-class" href="https://en.wikipedia.org/wiki/Maze_solving_algorithm">
+                                    <img src="images/products/8.jpg"/>
+                                </a>
+                                <div class="over-area over-area-sm color-1">
+                                    <div class="content">
+                                        <h4 class="text-gray">Starting from $350</h4>
+                                        <h3>Wall Follower Maze Solver</h3>
+                                        <p>The wall follower, the best-known rule for traversing mazes, is also known as either the left-hand rule or the right-hand rule. If the maze is simply connected, that is, all its walls are connected together or to the maze's outer boundary, then by keeping one hand in contact with one wall of the maze the solver is guaranteed not to get lost and will reach a different exit if there is one; otherwise, he or she will return to the entrance having traversed every corridor next to that connected section of walls at least once.</p>
+                                         <a target="_blank" href="https://en.wikipedia.org/wiki/Maze_solving_algorithm"><button class="w3-btn w3-hover-Brown w3-round-xxlarge w3-ripple ">Know More</button></a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-xs-12">
+                            <div class="project">
+                                <a target="_blank" class="img-class" href="https://en.wikipedia.org/wiki/Maze_solving_algorithm">
+                                    <img src="images/products/9.jpg"/>
+                                </a>
+                                <div class="over-area over-area-sm color-1 ">
+                                    <div class="content">
+                                        <h4 class="text-gray">, Starting from $400</h4>
+                                        <h3>Pledge algorithm Maze Solver</h3>
+                                        <p>The Pledge algorithm, designed to circumvent obstacles, requires an arbitrarily chosen direction to go toward. When an obstacle is met, one hand (say the right hand) is kept along the obstacle while the angles turned are counted. When the solver is facing the original direction again, and the angular sum of the turns made is 0, the solver leaves the obstacle and continues moving in its original direction.</p>
+                                         <a target="_blank" href="https://en.wikipedia.org/wiki/Maze_solving_algorithm"><button class="w3-btn w3-hover-Blue-Grey w3-round-xxlarge w3-ripple ">Know More</button></a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+                    
+
+                    <div class="row four">
+                        <div class="col-md-4 col-md-offset-4 col-xs-12">
+
+                            <div class="project">
+                                <a target="_blank" class="img-class" href="https://en.wikipedia.org/wiki/Maze_solving_algorithm">
+                                    <img src="images/products/10.jpg"/>
+                                </a>
+                                <div class="over-area over-area-sm color-1">
+                                    <div class="content">
+                                        <h4 class="text-gray">, Starting from $380</h4>
+                                        <h3>Trémaux's algorithm Maze Solver</h3>
+                                        <p>Trémaux's algorithm, invented by Charles Pierre Trémaux,[5] is an efficient method to find the way out of a maze that requires drawing lines on the floor to mark a path, and is guaranteed to work for all mazes that have well-defined passages.[6] A path from a junction is either unvisited, marked once or marked twice. </p>
+                                         <a target="_blank" href="https://en.wikipedia.org/wiki/Maze_solving_algorithm"><button class="w3-btn w3-hover-Yellow w3-round-xxlarge w3-ripple ">Know More</button></a></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+	<div class="embed-responsive embed-responsive-12by10">
+		<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=XAIJjQQpg5o"></iframe>
+    </div>        
+<!--Our Products is only till this-->
+	
+<!--testimonials started-->
+	<div class="testimonials" id="test">
+                <div class="container test">
+                    <div class="title">
+                        <h2>What people think...</h2>
+                        <div class="separator-container">
+                            <div class="separator line-separator">∎</div>
+                        </div>
+                    </div>
+                    <div class="tab-content tn">
+                        <div class="tab-pane fade in active" id="ms">  <!-- if you will write only fade then initially no active tab would be shown so put fade in-->
+                            <p class="think">Hey Hell O Tech team. Absolutely love your work! It's like wonderfull that you guys are doing all the 3 work together viz. font-end developement, back-end developement and electronics! Keep up the awesome work!</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="rs">
+                            <p class="think">My Name is Robin Sharma. You're simply awesome. I would love to contact you for my next website. And also you have the debug my website . Keep it up :)</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="bbctech">
+                            <p class="think">Finding a website with a vast purpose is always inspiring to continue front web development. But you did Magic my friends. Keep going and be sure if there is a donation, I'm in. Thanks for your daily hardworking. Hope to meet u guys one day.</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="intel">
+                            <p class="think">Hi, your site and all the stuff on it looks simply awesome. Love this masterpiece of work ;)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+						<div class="col-md-8 col-md-offset-3 col-xs-12">
+							<ul class="nav nav-pills tn">
+								<li class="active" >
+									<a href="../#ms" data-toggle="pill" style="color:black">
+										<h4 class="test-name"><strong>Satya Nadela</strong></h4>
+									</a>
+								</li>
+							
+							
+								<li>
+									<a href="../#rs" data-toggle="pill" style="color:black">
+										<h4 class="test-name"><strong>Robin Sharma</strong></h4>
+									</a>
+								</li>
+							
+							
+								<li>
+									<a href="../#bbctech" data-toggle="pill" style="color:black">
+										<h4 class="test-name"><strong>BBC Tech News</strong></h4>
+									</a>
+								</li>
+							
+								<li>
+									<a href="../#intel" data-toggle="pill" style="color:black">
+										<h4 class="test-name"><strong>Brian Krzanich</strong></h4>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+                </div>
+            </div>
+<!--testimonials ended-->
+
+<!--our team started-->
+		<div class="Meet-Our-Team" id="team">
+                <div class="container">
+                    <div class="row title">
+                        <h2>Meet our Team</h2>
+                        <div class="separator-container">
+							<div class="separator line-separator">∎</div>
+                        </div>
+                    </div>
+					<div class="row tem">
+                        <div class="col-md-4 col-xs-12">
+                            <img src="images/aboutus/1.jpg"/>
+                            <h3>Vipul Lalwani </h3>
+                            <br>
+                            <p>Vipul Lalwani is the founder and takes care of software development part that includes front-end development and back-end development with some hacking.</p>
+                            <div class="social ">
+								<a target="_blank" href="https://www.facebook.com/VipulLawani"><i class="fa fa-facebook-square"></i></a>
+                                <a target="_blank" href="https://twitter.com/Vipul_Lalwani" style="color:light-blue"><i class="fa fa-twitter"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/im_vipul" style="color: #fb3958"><i class="fa fa-instagram"></i></a>
+							</div>
+						</div>
+                        <div class="col-md-4 col-xs-12">
+                            <img src="images/aboutus/2.jpg"/>
+                            <h3>Mohit Joher</h3>
+                            <br>
+                            <p>Mohit Joher is the cofounder and is the person behind our hardware and electronics, robotics and the most important hardware hacking.</p>
+                            <div class="social ">
+                                <a target="_blank" href="https://www.facebook.com/johermohit"><i class="fa fa-facebook-square"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/johermohit" style="color: #fb3958"><i class="fa fa-instagram"></i></a>
+							</div>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                            <img src="images/aboutus/3.jpg"/>
+                            <h3>Tony Stark</h3>
+                            <br>
+                            <p>Everyone knows him right. So actually he is premium guest lecturer for techolgical department</p>
+                            <div class="social ">
+                                <a target="_blank" href="https://www.facebook.com/Tonyblogger/"><i class="fa fa-facebook-square"></i></a>
+                                <a target="_blank" href="https://twitter.com/Iron_Man"><i class="fa fa-twitter"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/tony.stark" style="color: #fb3958"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+<!--our team ended-->		
+			
+<!--Respect++ started-->		
+			<div class="Respect++" id="numbers">
+                <div class="container">
+                    <div class="row respect">
+                        <div class="title">
+                            <h2>Numbers don't lie - Respect++</h2>
+                            <div class="separator-container">
+                                <div class="separator line-separator">∎</div>
+                            </div>
+                            <p><h3><q>The journey of a thousand miles begins with one step</q> - Lao Tzu</h3></p>
+                        </div>
+						<div class="clearfix"></div>
+						<div class="row">
+							<div class="col-md-4 col-sm-4">
+								<div class="card">
+									<h3>Users</h3>
+									<h5>Businesses and Professionals</h5>
+									<div class="number">
+										116,000+
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="card">
+									<h3>Workshops</h3>
+									<h5>UI Kits</h5>
+									<div class="number" >
+										186,000+
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="card">
+									<h3>Countries</h3>
+									<h5>Where we made sponsorships</h5>
+									<div class="number" >
+										14
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+            </div>
+<!--Respect++ never ends-->	
+	<p>The Fate of the Furious Show Begins in</p>
+	<p id="timer"></p>	
+	
+	<video width="800" controls>
+		<source src="video/lfr.mp4" type="video/mp4">
+		<source src="video/lfr.ogv" type="video/ogv">
+		Your browser does not support HTML5 video.
+	</video>
+	
+
+					
+<!--address started-->
+	
+	 
+        <div class="container-fluid" id="address"><div id="map" style="width:100%;height:700px;"></div>
+            <div class="row" id="contact">
+				<div class="col-md-14 col-xs-12">
+				<h4 class="one">Where to meet ?</h4>
+				<h5 class="on">N-81, Barakhamba Road, Block N, <br>Cannaught Place,New Delhi,<br>Delhi 110001</h5>
+                <h4 class="two">Want to say hello?</h4>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdABZYBT672BQYQfjKWwVBvYq_R_1qCGUXebiT-VCfJaxs-0g/viewform">
+					<button class="w3-btn w3-hover-red w3-ripple " id="vis">CONTACT US <i class="fa fa-paper-plane"></i></button>
+                </a>
+                <h4 class="three">Thank you for 10k shares!</h4>
+                <button id="fb" class="btn btn-lg w3-hover-indigo" st>
+                    <i class="fa fa-facebook-square"></i> Facebook
+                </button>
+                <button id="twit" class="btn btn-lg w3-hover-blue">
+                    <i class="fa fa-twitter"></i> Twitter
+                </button>
+				</div>
+            </div>
+        </div>
+	</div>
+				
+
+<!--address ended-->
+
+<!--footer started-->
+    <div class="w3-container w3-black">
+		<footer class="footer">
+			<div class="row foot">
+				<div class="col-md-4 col-md-offset-1 col-xs-12">
+					<ul class="bs">
+						<li>
+							<a href="index.html">
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#contact">
+								Contact
+							</a>
+						</li>
+						<li>
+							<a href="https://blog.arduino.cc/category/projects/">
+								Blog
+							</a>
+						</li>
+						<li>
+							<a href="https://www.reddit.com/r/arduino/comments/35wkl5/sponsorships/">
+								Sponsorships
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-xs-12">
+					<div class="copyright">
+						&copy; 2017 <a target="_blank" href="index.html" style="color:white">Hell O Tech</a>
+					</div>
+				</div>
+				<div class="col-md-2 col-xs-12">
+					<div class="social-area">
+						<a href="https://www.facebook.com/bbctech" style="color:white">
+							<i class="fa fa-facebook-square"></i>
+						</a>
+						<a href="https://twitter.com/BBCTech" style="color:white">
+							<i class="fa fa-twitter"></i>
+						</a>
+						<a href="https://plus.google.com/u/0/collection/MhF1Y" style="color:white">
+							<i class="fa fa-google-plus-square"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+<!--footer ended-->
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+<script>
+function myMap() {
+	var mapOptions = {
+		center: new google.maps.LatLng(28.6311389, 77.2220528),
+		zoom: 16,
+		//mapTypeId: google.maps.MapTypeId.HYBRID
+	}
+	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+	var marker = new google.maps.Marker(mapOptions);
+	var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(28.6311389, 77.2220528),
+        map: map,
+    });
+}
+/*function initMap() {
+        var myLatLng = {lat: 28.6311389, lng: 77.2220528};
+		var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 16,
+        center: myLatLng
+        });
+		var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        });
+      }*/
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9j_zZCF2d4uivosUEchdJj7QrSYA_KeU&callback=myMap"></script>
+<script>
+	// Set the date we're counting down to
+	var countDownDate = new Date("April 12, 2017 12:00:00").getTime();
+
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="timer"
+    document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "Times Up BOOOOM!!!!!";
+    }
+});
+</script>
+	
+	
+	
+</html>
